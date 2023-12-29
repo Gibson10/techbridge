@@ -1,3 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* Toast override */
+.Toastify__toast-container {
+  z-index: 9999;
+  /* or any sufficiently high value */
+}
+
+.Toastify__toast {
+  border-radius: 10px;
+  /* or whatever value you prefer */
 }
