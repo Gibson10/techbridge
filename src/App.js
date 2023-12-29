@@ -80,7 +80,7 @@ function App() {
               href="#pricing"
               className="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600"
             >
-              Pricing
+              Statistics
             </a>
             <a
               href="#testimonials"
@@ -1383,9 +1383,7 @@ function App() {
         <div className="pt-4 pt-6 mt-10 text-center text-gray-500 border-t border-gray-100">
           © 2020 TechBridge. All rights reserved.
         </div>
-        <div className="pt-2 pt-4 mt-2 text-center text-gray-600 border-t border-gray-100">
-          Distributed By <a href="https://themewagon.com/">Themewagon</a>
-        </div>
+        <div className="pt-2 pt-4 mt-2 text-center text-gray-600 border-t border-gray-100"></div>
       </footer>
       {/* a little JS for the mobile nav button */}
     </div>
