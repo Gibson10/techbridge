@@ -21,7 +21,7 @@ const SectionOne = () => {
             <div className="flex justify-center lg:justify-end">
               {/* Replace div below with <img src={YourImage} alt="Your Alt Text" /> */}
               <div className="inline-block ">
-                <img src="illustration.png" alt="Placeholder" />
+                <img src="Illustration.png" alt="Placeholder" />
               </div>
             </div>
           </div>
