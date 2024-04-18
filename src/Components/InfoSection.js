@@ -26,7 +26,12 @@ const InfoSection = () => {
             to elevate your business with robust and efficient digital
             solutions?
           </p>
-          <button className="bg-blue-600 text-white font-bold py-2 px-6 rounded hover:bg-blue-700">
+          <button
+            className="bg-blue-600 text-white font-bold py-2 px-6 rounded hover:bg-blue-700"
+            onClick={() =>
+              (window.location.href = "https://forms.gle/UDqFS3RPQyRwtv2B7")
+            }
+          >
             Get a quotation Today!
           </button>
         </div>
