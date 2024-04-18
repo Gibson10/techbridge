@@ -7,7 +7,9 @@ const StatsSection = () => {
         <div>
           <h2 className="text-2xl lg:text-3xl font-bold ">
             Taking your product{" "}
-            <span className="text-blue-500">to the next level</span>
+          </h2>
+          <h2 className="text-2xl lg:text-3xl text-blue-500 font-bold ">
+            to the next level{" "}
           </h2>
           <p className="text-sm lg:text-base  mt-2 mb-8 lg:mb-0">
             We reached here with our hard work and dedication
