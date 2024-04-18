@@ -19,39 +19,50 @@ const StatsSection = () => {
               {/* Column 1 */}
               <div className="flex flex-col items-center">
                 {/* Engineers stat */}
-                <div className="flex flex-col items-center mb-8">
-                  <div className="w-10 h-10  mb-2">
-                    <img src="statsicons/engineers.png"></img>
+                <div className="flex items-center mb-8">
+                  <div className="w-10 h-10 mr-2">
+                    <img src="statsicons/engineers.png" alt="Engineers" />
                   </div>
-                  <span className="text-lg font-semibold ">15</span>
-                  <p className="text-sm text-gray-600">Engineers</p>
+                  <div className="flex flex-col">
+                    <span className="text-lg font-semibold">15</span>
+                    <p className="text-sm text-gray-600">Engineers</p>
+                  </div>
                 </div>
                 {/* Clients stat */}
-                <div className="flex flex-col items-center">
-                  <div className="w-10 h-10  mb-2">
-                    <img src="statsicons/clients.png"></img>
+                <div className="flex items-center mb-8">
+                  <div className="w-10 h-10 mr-2">
+                    <img src="statsicons/clients.png" alt="Clients" />
                   </div>
-                  <span className="text-lg font-semibold ">4</span>
-                  <p className="text-sm text-gray-600">Clients</p>
+                  <div className="flex flex-col">
+                    <span className="text-lg font-semibold">4</span>
+                    <p className="text-sm text-gray-600">Clients</p>
+                  </div>
                 </div>
               </div>
               {/* Column 2 */}
               <div className="flex flex-col items-center">
                 {/* Designers stat */}
-                <div className="flex flex-col items-center mb-8">
-                  <div className="w-10 h-10  mb-2">
-                    <img src="statsicons/designers.png"></img>
+                <div className="flex items-center mb-8">
+                  <div className="w-10 h-10 mr-2">
+                    <img src="statsicons/designers.png" alt="Designers" />
                   </div>
-                  <span className="text-lg font-semibold ">4</span>
-                  <p className="text-sm text-gray-600">Designers</p>
+                  <div className="flex flex-col">
+                    <span className="text-lg font-semibold">4</span>
+                    <p className="text-sm text-gray-600">Designers</p>
+                  </div>
                 </div>
-                {/* Ongoing Projects stat */}
-                <div className="flex flex-col items-center">
-                  <div className="w-10 h-10  mb-2">
-                    <img src="statsicons/projects.png"></img>
+
+                <div className="flex items-center mb-8">
+                  <div className="w-10 h-10 mr-2">
+                    <img
+                      src="statsicons/engineers.png"
+                      alt="OnGoing Projects"
+                    />
                   </div>
-                  <span className="text-lg font-semibold ">7</span>
-                  <p className="text-sm text-gray-600">Ongoing projects</p>
+                  <div className="flex flex-col">
+                    <span className="text-lg font-semibold">7</span>
+                    <p className="text-sm text-gray-600"> projects</p>
+                  </div>
                 </div>
               </div>
             </div>

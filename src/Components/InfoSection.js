@@ -6,13 +6,16 @@ const InfoSection = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         {/* Image placeholder - replace with actual image */}
         <div className="flex-1 mb-8 lg:mb-0">
-          <div className="w-full h-64 ">
+          <div className="w-full h-50 ">
             <img src="rafiki.png"></img>
           </div>
         </div>
         <div className="flex-1">
+          <h2 className="text-3xl font-bold text-blue-500">
+            Empowering Innovation,
+          </h2>
           <h2 className="text-3xl font-bold text-blue-500 mb-6">
-            Empowering Innovation, Engineering Success
+            Engineering Success
           </h2>
           <p className="text-gray-700 mb-6">
             Join us at TechBridge Solutions, where we transform your visionary

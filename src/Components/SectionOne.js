@@ -8,7 +8,9 @@ const SectionOne = () => {
           <div className="w-full lg:w-1/2">
             <h1 className="text-5xl font-bold leading-tight text-gray-800">
               Build your MVP in{" "}
-              <span className="text-blue-500">just 3-4 Months</span>
+            </h1>
+            <h1 className="text-5xl font-bold leading-tight text-blue-500">
+              just 3-4 Months{" "}
             </h1>
             <p className="text-gray-600 text-lg my-6">
               Empowering Innovation, Engineering Success!!

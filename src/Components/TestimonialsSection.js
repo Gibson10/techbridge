@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialCard = ({ quote, author }) => {
   return (
     <div className="bg-grey rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
-      <p className="text-gray-600 text-sm">{quote}</p>
+      <p className="text-black text-sm">"{quote}"</p>
       {/* <p className="text-gray-900 text-sm font-semibold mt-4">{author}</p> */}
       <a
         href="/read-more"
@@ -34,17 +34,20 @@ const TestimonialsSection = () => {
 
   return (
     <div className="py-12 bg-gray-50" id="testimonials">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-0">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6 text-blue-500">
           Testimonials
         </h2>
-        <p className="text-center text-gray-600 mb-12">
+        <p className="text-center text-zinc-400 mb-12">
           Don't just take our word for it, read from our extensive list of case
           studies and customer testimonials.
         </p>
-        <div className="flex justify-center flex-wrap -mx-4">
+        <div className="flex justify-between flex-wrap -mx-0">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+            <div
+              key={index}
+              className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8 md:mb-0 flex-grow"
+            >
               <TestimonialCard
                 quote={testimonial.quote}
                 author={testimonial.author}

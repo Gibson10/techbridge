@@ -7,7 +7,7 @@ const ServicesSection = () => {
         {/* Clients Section */}
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Clients</h2>
-          <p className="mb-12">
+          <p className="mb-12 text-zinc-400">
             We have been working with the next generation of businesses
             revolutionizing their industry
           </p>
@@ -42,14 +42,14 @@ const ServicesSection = () => {
           Built and Designed with you in Mind
         </h2>
         <div className="flex flex-col md:flex-row justify-around">
-          <div className="mb-10">
+          <div className="mb-10 shadow-md  p-6 mr-4 flex-grow">
             <div className="mb-4">
               {/* Replace with actual image */}
               <div className="w-16 h-16 mx-auto">
                 <img src="icons/innovate.png" alt="Placeholder" />
               </div>
             </div>
-            <h3 className="text-xl font-semibold text-center mb-2 text-blue-500 ">
+            <h3 className="text-xl font-bold text-center mb-2 text-sky-500 ">
               Innovative Solutions
             </h3>
             <p className="text-center text-gray-600">
@@ -58,14 +58,14 @@ const ServicesSection = () => {
               workflows and fast-track innovation.
             </p>
           </div>
-          <div className="mb-10">
+          <div className="mb-10 shadow-md  p-6 mr-4 flex-grow">
             <div className="mb-4">
               {/* Replace with actual image */}
               <div className="w-16 h-16 mx-auto">
                 <img src="icons/data.png" alt="Placeholder" />
               </div>{" "}
             </div>
-            <h3 className="text-xl font-semibold text-center mb-2 text-blue-500">
+            <h3 className="text-xl font-bold text-center mb-2 text-sky-500">
               Data Intelligence
             </h3>
             <p className="text-center text-gray-600">
@@ -73,14 +73,14 @@ const ServicesSection = () => {
               decision-making and optimize business strategies.
             </p>
           </div>
-          <div className="mb-10">
+          <div className="mb-10 shadow-md  p-6 flex-grow">
             <div className="mb-4">
               {/* Replace with actual image */}
               <div className="w-16 h-16 mx-auto">
                 <img src="icons/insights.png" alt="Placeholder" />
               </div>
             </div>
-            <h3 className="text-xl font-semibold text-center mb-2 text-blue-500">
+            <h3 className="text-xl font-bold text-center mb-2 text-sky-500">
               Strategic Insights
             </h3>
             <p className="text-center text-gray-600">
