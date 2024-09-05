@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
     },
     {
       quote:
-        "TechBridge's approach to quality assurance and database architecture has significantly improved our product's robustness and efficiency.",
+        "Quatumcode Systems's approach to quality assurance and database architecture has significantly improved our product's robustness and efficiency.",
     },
     {
       quote:

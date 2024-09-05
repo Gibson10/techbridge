@@ -18,7 +18,7 @@ const InfoSection = () => {
             Engineering Success
           </h2>
           <p className="text-gray-700 mb-6">
-            Join us at TechBridge Solutions, where we transform your visionary
+            Join us at Quantumcode Systems, where we transform your visionary
             ideas into market-ready solutions. Our expert consultancy in project
             management, product design, and quality assurance, coupled with
             top-tier development in back-end, front-end, and full-stack

@@ -23,9 +23,6 @@ const ServicesSection = () => {
               <img src="icons/icon3.png" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/icon4.png" alt="Placeholder" />
-            </div>
-            <div className="w-16 h-16  flex items-center justify-center">
               <img src="icons/icon5.png" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">

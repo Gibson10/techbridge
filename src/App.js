@@ -26,7 +26,7 @@ function App() {
     <div>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Techbridge</title>
+      <title>QUANTUMCODE Systems</title>
       {/*
     For more customization options, we would advise
     you to build your TailwindCSS from the source.
@@ -60,7 +60,7 @@ function App() {
                 <path d="M87 68.732l9.926 17.143 29.893-51.59L174.15 116H194L126.817 0z" />
               </g>
             </svg> */}
-            <img src="logo.png"></img>
+            QUANTUMCODE
           </a>
           <nav
             id="nav"
@@ -112,7 +112,7 @@ function App() {
         <div className="container flex flex-col justify-between max-w-6xl px-4 mx-auto overflow-hidden lg:flex-row">
           <div className="w-full pl-12 mr-4 text-left lg:w-1/4 sm:text-center sm:pl-0 lg:text-left">
             <p className="pt-4   text-center text-white ">
-              © 2020 TechBridge. All rights reserved.
+              © 2020 QUANTUMCODE Systems. All rights reserved.
             </p>
           </div>
           <div className="block w-full pl-10 mt-6 text-sm lg:w-3/4 sm:flex lg:mt-0">
