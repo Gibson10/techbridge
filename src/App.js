@@ -3,8 +3,10 @@ import "./App.css";
 import SectionOne from "./Components/SectionOne";
 import ServicesSection from "./Components/ClientSection";
 import InfoSection from "./Components/InfoSection";
+import ContactUsSection from "./Components/ContactUs";
 import StatsSection from "./Components/StatsSection";
 import TestimonialsSection from "./Components/TestimonialsSection";
+import Modal from "./Components/EmailModal";
 import React, { useEffect, useState } from "react";
 
 function App() {
@@ -107,6 +109,7 @@ function App() {
       <InfoSection />
       <StatsSection />
       <TestimonialsSection />
+      <ContactUsSection />
 
       <footer className="px-4 pt-12 pb-8 text-white bg-white border-t bg-blue-500 border-gray-200">
         <div className="container flex flex-col justify-between max-w-6xl px-4 mx-auto overflow-hidden lg:flex-row">
