@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+ "short_name": "Quantumcode",
+  "name": "Quantumcode Systems",
+  "description": "A technology platform integrating coding and quantum mechanics.",
+
   "icons": [
     {
       "src": "favicon.ico",
