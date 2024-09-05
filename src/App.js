@@ -62,7 +62,11 @@ function App() {
                 <path d="M87 68.732l9.926 17.143 29.893-51.59L174.15 116H194L126.817 0z" />
               </g>
             </svg> */}
-            QUANTUMCODE
+            {/* <img src="logo192.png" alt="Logo" className="w-20 h-20" /> <br></br> */}
+            <div class="text-gray-900 font-mono text-4xl tracking-wider">
+              <span class="text-blue-500">Quantum</span>
+              <span class="text-gray-500">code</span>
+            </div>
           </a>
           <nav
             id="nav"

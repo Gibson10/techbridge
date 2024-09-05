@@ -45,7 +45,7 @@ const ContactUsSection = () => {
   );
 
   return (
-    <div className="bg-blue-100 py-12 px-4">
+    <div className="bg-blue-100 py-12 px-4" id="contact">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-6 text-blue-500">
         Contact us
       </h2>

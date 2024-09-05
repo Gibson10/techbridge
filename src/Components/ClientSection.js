@@ -14,22 +14,22 @@ const ServicesSection = () => {
           <div className="flex justify-between flex-wrap gap-4 md:gap-8 mb-20 mx-6 md:mx-0">
             {/* Replace these divs with actual <img> tags */}
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/icon1.png" alt="Placeholder" />
+              <img src="icons/Acentria.jpg" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/icon2.png" alt="Placeholder" />
+              <img src="icons/anfield.png" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/icon3.png" alt="Placeholder" />
+              <img src="icons/Avodah.png" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/icon5.png" alt="Placeholder" />
+              <img src="icons/bayzat.webp" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/icon6.png" alt="Placeholder" />
+              <img src="icons/conint.png" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/icon7.png" alt="Placeholder" />
+              <img src="icons/Qureos.png" alt="Placeholder" />
             </div>
           </div>
         </div>

@@ -15,13 +15,8 @@ const SectionOne = () => {
             <p className="text-gray-600 text-lg my-6">
               Empowering Innovation, Engineering Success!!
             </p>
-            <button
-              className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg mt-4 hover:bg-blue-700 transition ease-in-out duration-300"
-              onClick={() =>
-                (window.location.href = "https://forms.gle/UDqFS3RPQyRwtv2B7")
-              }
-            >
-              Get a Quotation today!
+            <button className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg mt-4 hover:bg-blue-700 transition ease-in-out duration-300">
+              <a href="#contact">Get a Quotation today!</a>
             </button>
           </div>
           <div className="w-full lg:w-1/2 lg:pl-10">
