@@ -23,7 +23,7 @@ const ServicesSection = () => {
               <img src="icons/Avodah.png" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
-              <img src="icons/bayzat.webp" alt="Placeholder" />
+              <img src="icons/bayzat.png" alt="Placeholder" />
             </div>
             <div className="w-16 h-16  flex items-center justify-center">
               <img src="icons/conint.png" alt="Placeholder" />
