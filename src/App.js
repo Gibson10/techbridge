@@ -119,7 +119,7 @@ function App() {
         <div className="container flex flex-col justify-between max-w-6xl px-4 mx-auto overflow-hidden lg:flex-row">
           <div className="w-full pl-12 mr-4 text-left lg:w-1/4 sm:text-center sm:pl-0 lg:text-left">
             <p className="pt-4   text-center text-white ">
-              © 2020 Githure Holdings. All rights reserved.
+              ©2020 Githure Holdings. All rights reserved.
             </p>
           </div>
           <div className="block w-full pl-10 mt-6 text-sm lg:w-3/4 sm:flex lg:mt-0">
