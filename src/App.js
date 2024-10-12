@@ -64,8 +64,8 @@ function App() {
             </svg> */}
             {/* <img src="logo192.png" alt="Logo" className="w-20 h-20" /> <br></br> */}
             <div class="text-gray-900 font-mono text-4xl tracking-wider">
-              <span class="text-blue-500">Quantum</span>
-              <span class="text-gray-500">code</span>
+              <span class="text-blue-500">Githure</span>
+              <span class="text-gray-500">Holdings</span>
             </div>
           </a>
           <nav
